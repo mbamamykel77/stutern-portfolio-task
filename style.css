@@ -1,0 +1,127 @@
+body {
+    background-color: black;
+  }
+
+.container {
+    margin-top: 40px;
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin-left: 120px;
+    background: linear-gradient(to right, purple  , rgb(255, 149, 166));
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-bar a:hover{
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.nav-list ul{
+    margin-left: 10px;
+    list-style: none;
+}
+.nav-list a {
+    text-decoration: none;
+    color: white;
+}
+.li-list ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 300px;
+}
+
+.li-list a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+.sec-1 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.hello p {
+    font-size: 12px;
+    font-family: cursive ;
+    font-weight: bold;
+}
+
+.sec-1 img {
+    width: 70%;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+button {
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: pink;
+    color: black;
+}
+
+.sample-img {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(34, 34, 34);
+}
+.sample-img img {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    padding: 15px;
+    margin: 40px 38px 20px -15px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px 15px 0px;
+}
+.design li {
+    /* box-shadow: 0px 0px 3px ; */
+    text-align: center;
+    width: 33%;
+    border-radius: 10px;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 40px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+}
+
+.design ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.career {
+    padding-left: 40px;
+    line-height: 30px;
+    padding-right: 20px;
+}
